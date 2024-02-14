@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+};
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1430px;
+    margin-inline: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(248, 248, 248);
+    padding: 0 230px 215px 140px;
+}
+
+.name {
+    color: rgb(39, 39, 39);
+    font-family: League Spartan;
+    font-size: 250px;
+    font-weight: 300;
+   margin-bottom: 45px;
+}
+
+.text {
+    color: rgb(22, 21, 21);
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 570px;
+}
+
+.btn-buy {
+    display: flex;
+    text-align: center;
+}
+
+.btn-buy__button {
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    max-height: 80px;
+    background: rgb(22, 21, 21);
+    color: rgb(255, 255, 255);
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 29px;
+    padding: 26px 74px 35px 73px;
+}
+
+.price {
+    color: rgb(39, 39, 39);
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 186%;
+    padding: 13px 27px 31px 28px;
+}
+
+.model {
+    text-align: center;
+    background: white;
+    padding-bottom: 140px;
+    padding-top: 10px;
+}
+
+.second {
+    color: rgb(0, 0, 0);
+    font-family: League Spartan;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 186%;
+}
+
+.title-mod1 {
+    color: rgb(0, 0, 0);
+    font-family: League Spartan;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 112.5%;
+    text-align: center;
+}
+
+.mod-img {
+    margin-bottom: 70px;
+    padding: 110px 60px 110px 70px;
+}
+
+.models-two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-mod2 {
+    color: rgb(0, 0, 0);
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.models-tree {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-mod {
+    color: rgb(22, 21, 21);
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.title-mod3 {
+    color: rgb(0, 0, 0);
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.text-mod1 {
+    width: 100%;
+    color: rgb(22, 21, 21);
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.models {
+    margin-bottom: 70px;
+    padding: 110px 60px 110px 70px;
+}
+
+.product {
+    position: relative;
+    display: inline-block;
+    color: rgb(22, 21, 21);
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 186%;
+    letter-spacing: 0%; 
+    margin-bottom: 58px;  
+}
+
+.product::before {
+    position: absolute;
+    display: block;
+    width: calc(100% - 72px);
+    height: 1px;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: black;
+    content: " ";
+}
+
+.text-mod3 {
+    color: rgb(22, 21, 21);
+    font-family: League Spartan;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 170%;
+    text-align: center;
+}
+
+.more {
+   color: rgb(187, 139, 93);
+   position: relative;
+   font-weight: 500;
+   display: inline-block;
+}
+
+.more::before {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    bottom: 10px;
+    background: red;
+    content: " ";
+}
