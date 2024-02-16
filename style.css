@@ -6,6 +6,7 @@
 
 body {
     font-family: 'League Spartan', sans-serif;
+    text-align: center;
 };
 
 img {
@@ -17,12 +18,14 @@ a {
 }
 
 .container {
+    display: flex;
     width: 100%;
     max-width: 1430px;
     margin-inline: auto;
 }
 
 .main {
+    flex-direction: column;
     display: flex;
     justify-content: space-between;
     background: rgb(248, 248, 248);
@@ -34,7 +37,7 @@ a {
     font-family: League Spartan;
     font-size: 250px;
     font-weight: 300;
-   margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 
 .text {
@@ -213,3 +216,110 @@ a {
     background: red;
     content: " ";
 }
+
+@media screen and (max-width: 1048px) {
+    .main {
+        padding: 0 115px 100px 74px;
+    }
+    .name {
+        font-size: 120px;
+    }
+    .btn-buy__button {
+        font-size: 25px;
+    }
+    .price {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .main {
+      padding: 0 115px 100px 75px;
+      gap: 30px;
+    }
+    .btn-buy__button {
+      max-height: 50px;
+      font-size: 23px;
+      padding: 12px 30px;
+    }
+    .price {
+      max-height: 60px;
+      font-size: 25px;
+      padding: 0px 7px;
+    }
+  }
+
+@media screen and (max-width: 798px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .model {
+      margin-inline: auto;
+      width: 100%;
+      max-width: 290px;
+    }
+  }
+
+  @media screen and (max-width: 592px) {
+    .main {
+        gap: 30px;
+        padding: 0 30px 52px 30px;
+    }
+    .name {
+        margin-bottom: 20px;
+        font-size: 70px;
+    }
+    .text {
+        margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .btn-buy__button {
+        font-size: 20px;
+    }
+    .price {
+        font-size: 20px;
+    }
+    .model {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .second {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .title-mod1 {
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+    .mod-img {
+        margin-bottom: 30px;
+        padding: 30px 15px;
+    }
+    .title-mod2 {
+        margin-bottom: 9px;
+        font-size: 20px;
+    }
+    .text-mod {
+        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .title-mod1 {
+        margin-bottom: 45px;
+    }
+    .text-mod1 {
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+    .product {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .text-mod3 {
+        line-height: 33px;
+        font-size: 20px;
+    }
+  }
